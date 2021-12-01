@@ -18,8 +18,24 @@ img {
 }
 
 button {
-  padding: 15px 32px;
+  padding: 12px 24px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+}
+
+input {
+  height: 46px;
+}
+
+.field {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.value {
+  font-size: 28px;
 }
